@@ -32,5 +32,9 @@ def downloadPlaylist(url, output, subtitle='a.en'):
 if __name__ == "__main__":
     inurl = sys.argv[1]
     outpath = sys.argv[2]
-    # downloadVideo(inurl, outpath, subtitle='a.en')
-    downloadPlaylist(inurl, outpath, subtitle='a.en')
+
+    # To download a single video and its subtitle
+    downloadVideo(inurl, outpath, subtitle='a.en')
+
+    # To download a playlist and subtitles for each individual video
+    # downloadPlaylist(inurl, outpath, subtitle='a.en')
